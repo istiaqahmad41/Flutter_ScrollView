@@ -36,15 +36,13 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                 height: 200,
-                color: Colors.green,
-        
-              ),
-        
-            ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+
+                      ),
+
+                      ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
