@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       ),
       home: const MyHomePage(),
     );
-  }//hello app
+  }
 }
 
 class MyHomePage extends StatefulWidget {
@@ -34,10 +34,86 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(),
+
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  //for row side
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 200,
+                      width: 200,
+                      color: Colors.red,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 200,
+                      width: 200,
+                      color: Colors.lightGreen,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 200,
+                      width: 200,
+                      color: Colors.blue,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 200,
+                      width: 200,
+                      color: Colors.amber,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 200,
+                      width: 200,
+                      color: Colors.red,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 200,
+                      width: 200,
+                      color: Colors.lightGreen,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 200,
+                      width: 200,
+                      color: Colors.blue,
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      height: 200,
+                      width: 200,
+                      color: Colors.amber,
+                    ),
+                  ),
+                ],
+              ),
             ),
+
+
+
+
+
+
+            //for coloum side
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
